@@ -1,8 +1,8 @@
-function checkTemp(checkTemp) {
-    if (checkTemp >= 0 && checkTemp <= 20 ) {
+function checkTemp(temperatuur) {
+    if (temperatuur >= 0 && temperatuur <= 20 ) {
         console.log ("-1");
-    }  else if (checkTemp <= 40 ) {
+    }  else if (temperatuur <= 40 ) {
         console.log ("0");
-    }  else (checkTemp <= 60 ) 
+    }  else (temperatuur <= 60 ) 
         console.log ("1");
     }
