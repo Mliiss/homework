@@ -1,3 +1,5 @@
+let temperatuur = 0;
+
 function checkTemp(temperatuur) {
     if (temperatuur >= 0 && temperatuur <= 20 ) {
         return -1;
